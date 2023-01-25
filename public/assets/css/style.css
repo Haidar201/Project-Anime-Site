@@ -1,0 +1,61 @@
+html {
+}
+
+.header {
+  background-image: url(/assets/images/Header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+}
+
+.header-login {
+  background-image: url(/assets/images/Header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.home-content {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url(/assets/images/Body.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  min-height: 1000px;
+}
+nav :hover {
+  background-color: #555555;
+}
+
+.cover {
+  width: 100px;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+i {
+  color: #ffd000;
+}
+
+/*rating*/
+.rating-box header {
+  font-size: 22px;
+  color: #dadada;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.rating-box .stars {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.stars i {
+  color: #e6e6e6;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.stars i.add-star {
+  color: #ffd000;
+}
